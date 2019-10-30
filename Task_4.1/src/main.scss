@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+$button-width: 100px;
+$button-height: 100px;
+$button-margin-top-bottom: 2px;
+$button-margin-left-right: 0.3px;
+$display-color: #efefef;
+
+input[type=button] {
+  width: $button-width;
+  height: $button-height;
+  font-size: 24pt;
+  margin-top: $button-margin-top-bottom;
+  margin-bottom: $button-margin-top-bottom;
+  margin-left: $button-margin-left-right;
+  margin-right: $button-margin-left-right;
+}
+
+#memoryField {
+  border: none;
+  width: 100%;
+  text-align: right;
+  font-size: 15pt;
+  background-color: $display-color;
+}
+
+#currentInput {
+  border: none;
+  background-color: $display-color;
+  width: 100%;
+  text-align: right;
+  font-size: 38pt;
+}
+
+#button0 {
+  width: 258px;
+}
+
+#buttonDecimal {
+  width: 152px;
+  margin-right: 0px;
+}
+
+#calculator_div {
+  width: 415px;
+  height: 645px;
+}
+
+#main_div {
+  height: 1080px;
+}
